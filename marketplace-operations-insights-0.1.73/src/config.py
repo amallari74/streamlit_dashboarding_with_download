@@ -1,0 +1,3 @@
+
+DEFAULT_PAGE_SIZE = 500
+DATE_FORMAT = "%Y-%m-%d"

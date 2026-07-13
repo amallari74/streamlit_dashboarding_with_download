@@ -1,0 +1,9 @@
+services:
+  marketplace-operations-insights:
+    build:
+      context: .
+    working_dir: /app
+    ports:
+      - "8501:8501"
+    entrypoint: ""
+    command: "more /app/.streamlit/secrets.toml"

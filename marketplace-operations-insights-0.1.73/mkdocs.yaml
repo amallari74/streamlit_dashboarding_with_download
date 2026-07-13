@@ -1,0 +1,8 @@
+site_name: marketplace-operations-insights
+site_description: Marketplace Operations Insights for diagnostics and analysis
+
+nav:
+  - Introduction: README.md
+
+plugins:
+  - techdocs-core

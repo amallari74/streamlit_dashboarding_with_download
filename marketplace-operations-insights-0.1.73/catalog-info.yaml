@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: marketplace-operations-insights
+  description: Marketplace Operations Insights for diagnostics and analysis
+  annotations:
+    github.com/project-slug: pax8/marketplace-operations-insights
+    backstage.io/kubernetes-id: marketplace-operations-insights
+    backstage.io/kubernetes-namespace: data-platform
+    backstage.io/techdocs-ref: dir:.
+  tags:
+   - python
+spec:
+  type: cronjob
+  lifecycle: experimental
+  owner: group:sso-mog-dev
+  system: data-platform
