@@ -9,5 +9,6 @@ The code change that I've done here are listed below:
                                   added the elif selected_dataset == "Credit Memo Report" logic
 
 To run the application, from the shell invoke:  streamlit run src/app.py
+
 Sample output is captured (see "generate report.png" and "download csv dataset.png")
       
